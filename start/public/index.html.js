@@ -1,5 +1,5 @@
 const LOCAL_BASE_URL = 'http://localhost:7071';
-const REMOTE_BASE_URL = '<FUNCTION_APP_ENDPOINT>';
+const REMOTE_BASE_URL = 'https://fm-signalr.azurewebsites.net';
 
 const getAPIBaseUrl = () => {
     const isLocal = /localhost/.test(window.location.href);
